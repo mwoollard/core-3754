@@ -8,7 +8,7 @@ Demo private pod to help with debugging an issue
     DESC
 
     s.homepage     = "http://www.github.com/mwoollard"
-    s.license      = { :type => 'BSD' }
+    s.license      = { :type => 'BSD', :file => 'LICENSE' }
     s.author       = { "Mark Woollard" => "mark.woollard@mac.com" }
 
     s.swift_version = '4.0'
