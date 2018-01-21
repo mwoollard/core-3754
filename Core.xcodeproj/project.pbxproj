@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2C2516DA2015008300C4579A /* Core.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C2516D82015008300C4579A /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C2516E12015009E00C4579A /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2516E02015009E00C4579A /* Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C2516D52015008300C4579A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2516D82015008300C4579A /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = Core.h; sourceTree = "<group>"; };
 		2C2516D92015008300C4579A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2516E02015009E00C4579A /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		2C2516E2201500E300C4579A /* Core.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Core.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +33,7 @@
 		2C2516CB2015008300C4579A = {
 			isa = PBXGroup;
 			children = (
+				2C2516E2201500E300C4579A /* Core.podspec */,
 				2C2516D72015008300C4579A /* Core */,
 				2C2516D62015008300C4579A /* Products */,
 			);
@@ -48,6 +52,7 @@
 			children = (
 				2C2516D82015008300C4579A /* Core.h */,
 				2C2516D92015008300C4579A /* Info.plist */,
+				2C2516E02015009E00C4579A /* Stub.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2516DA2015008300C4579A /* Core.h in Sources */,
+				2C2516E12015009E00C4579A /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
